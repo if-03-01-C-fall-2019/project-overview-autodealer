@@ -1,0 +1,58 @@
+
+html,body {margin: 0;padding: 0;height: 100%;text-align: center;}
+section{min-height: 100%;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+h1, h2, h3, a{font-family: 'Roboto', sans-serif;font-weight: 500;color: #494949;text-transform: uppercase;}
+h2{color: #5d7177;}
+h3{font-size: 40px;padding-top: 8%;margin-bottom: 5px;}
+hr{width: 30px;height:3px;background: #494949;border: 0;margin: 0 auto 40px auto;}
+
+/* Header++++++++++++++++++++++++++++++++++*/
+
+header{width: 100%;height: 65px;position: fixed;top: 0;left: 0;background: #fff;}
+#logo {width: 140px;float: left;margin: 10px 0 0 50px;}
+#logo img{width: 100%;}
+header nav{float: right;margin:  10px 50px 0 0;}
+header nav ul li{float: left;margin-left: 25px;}
+header nav ul li a{font-size: 16px;}
+
+/* HOME++++++++++++++++++++++++++++++++++*/
+
+#home{background: url(../img/alp_1623.jpg);background-position: center center;background-size: cover;background-attachment: fixed;}
+#home h1{margin: 240px auto 0 auto;font-size: 110px;color: #FFFFFF;}
+#home h2{margin: 0 auto 0 auto;font-size: 25px;color: #FFFFFF;}
+#home img{width: 32px;margin-top: 150px;}
+
+/* AUDI++++++++++++++++++++++++++++++++++*/
+
+#audi img{width: 240px;}
+#audi p{width: 700px;margin: 0 auto 0 auto}
+
+/* BMW++++++++++++++++++++++++++++++++++*/
+
+#bmw img{width: 240px;}
+#bmw p{width: 700px;margin: 0 auto 0 auto}
+
+/* MERCEDES++++++++++++++++++++++++++++++++++*/
+
+#mercedes img{width: 240px;}
+#mercedes p{width: 700px;margin: 0 auto 0 auto}
+
+/* Vergleich++++++++++++++++++++++++++++++++*/
+
+/*In Arbeit*/
+
+/* WEBSITE++++++++++++++++++++++++++++++++++*/
+#website{background-image: url(../img/schwarz011_1366x768.jpg);}
+#Brands h3{color: #FFFFFF;}
+#Brands h4{color: #FFFFFF;}
+#Brands{width: 900px;margin: 0 auto 0 auto;}
+#Brands ul li{width: 50%;float: left;margin-bottom: 15px;}
+#Brands img{width: 280px;height: 170px;}
+
+/* FOOTER++++++++++++++++++++++++++++++++++*/
+
+footer{width: 100%;height: 70%;background-color: #3f3f3f3f;}
+footer p{font-size: 12px;color: #000000;padding-top: 30px;}
+footer li{font-size: 12px;color: #000000;padding-top: 30px;}
