@@ -1,0 +1,76 @@
+html, body{margin: 0;padding: 0;height: 100%;text-align: center;}
+section{min-height: 100%;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+
+h1, h2, h3, a{font-family: 'Roboto', sans-serif;font-weight: 500;color: #494949;text-transform: uppercase;}
+h2{color: #5d7177;}
+h3{font-size: 40px;padding-top: 8%;margin-bottom: 5px;}
+p{font-family: 'Roboto Slab',serif;color: #494949;font-size:20px;}
+
+hr{width: 30px;height:3px;background: #494949;border: 0;margin: 0 auto 40px auto;}
+li{font-family: 'Roboto Slab',serif;color: #494949;font-size:20px;}
+li{transition: all 300ms;font-family: 'Roboto Slab';}
+/* Header++++++++++++++++++++++++++++++++++*/
+
+header{width: 100%;height: 65px;position: fixed;top: 0;left: 0;background: white;}
+#logo {width: 140px;float: left;margin: 10px 0 0 30px;}
+#logo:hover{opacity: 0.5;}
+#logo img{width: 100%;}
+header nav{float: right;margin:  10px 50px 0 0;}
+header nav ul li{float: left;margin-right: 25px;}
+header nav ul li:hover{padding-top: 5px;color: black;}
+header nav ul li a{font-size: 16px;}
+header h4{text-align: left;font-size: 18px;}
+header{border-bottom: black 3px solid;}
+
+/* HOME++++++++++++++++++++++++++++++++++*/
+
+#home{background: url(../img/alp_1623.jpg);background-position: center center;background-size: cover;background-attachment: fixed;}
+#home h1{margin: 240px auto 0 auto;font-size: 110px;color: white;text-align: right;}
+#home h2{margin: 0 auto 0 auto;font-size: 25px;color: white;text-align: right;margin-right: 185px;}
+#home img{width: 32px;margin-top: 150px;}
+
+/* AUDI++++++++++++++++++++++++++++++++++*/
+
+#audi img{width: 300px;margin-bottom: 10px;margin-top: auto;}
+#audi img:hover{transform: scale(1.1);}
+#audi li{margin-bottom: 10px;}
+
+/* BMW++++++++++++++++++++++++++++++++++*/
+
+#bmw img{width: 300px;margin-bottom: 10px;margin-top: auto;}
+#bmw img:hover{transform: scale(1.1);}
+#bmw li{margin-bottom: 10px;}
+
+/* MERCEDES++++++++++++++++++++++++++++++++++*/
+
+#mercedes img{width: 300px;margin-bottom: 10px;margin-top: auto;}
+#mercedes img:hover{transform: scale(1.1);}
+#mercedes li{margin-bottom: 10px;}
+
+/* VW++++++++++++++++++++++++++++++++++*/
+
+#vw img{width: 300px;margin-bottom: 10px;margin-top: auto;}
+#vw img:hover{transform: scale(1.1);}
+#vw li{margin-bottom: 10px;}
+
+/* Ranking++++++++++++++++++++++++++++++++++*/
+
+#ranking p{font-size: 14px;}
+#tabele img{height: 550px;}
+
+/* BRANDS++++++++++++++++++++++++++++++++++*/
+
+#website{background-image: url(../img/schwarz011_1366x768.jpg);}
+#website h3{color: white;}
+#brands{width: 900px;margin: 0 auto 0 auto;}
+#brands ul{padding: 0;}
+#brands ul li{width: 50%;float: left;margin-bottom: 15px;}
+#brands img{width: 280px;height: 170px;border-radius: 5px;}
+#brands img:hover{transform: scale(1.1);transition: 1s;}
+
+/* FOOTER++++++++++++++++++++++++++++++++++*/
+
+footer{width: 100%;height: 10%;background-color: #3f3f3f3f;}
+footer p{font-size: 18px;color: #000000;padding-top: 30px;}
